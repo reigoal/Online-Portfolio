@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Online Portfolio</title>
+</head>
+<body>
+    <nav>
+        <img src="/R.png" alt="logo-reggie">
+        <div class="navigation">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="Home" class="flex-container">
+        <div class="image-container">
+            <img src="/Et7pal54_400x400.jpg" alt="My Image">
+    </div>
+    <div class="text-container">
+        <p>
+            Hello, I'm Reginald Alang'o. I faciliate the entry and 
+            expansion of Blockchain companies, Web3 companies & Crypto Exchanges 
+            into emerging markets such as Africa. 
+        </p>
+        <p>
+            I've been collaborating with International teams in 
+            developing Go-To-Market Strategies, identifying 
+            potential markets of entry and penetration and product marketing.
+        </p>
+        <p>
+            At the moment, I'm providing B2B payment solutions 
+            to startups and large corporations with the aim of 
+            simplifying payments in and out of Africa.
+        </p>
+        <p>
+            In the near future, I would love to work with Angel 
+            investors or Venture Capitalist to help scout for them 
+            the next Web3 Unicorns from Africa. 
+        </p>
+    </div>
+    <div id="Services" class="services-container">
+        <h2>Services</h2>
+
+        <div class="media-box">
+            <img src="/IMG_2155.jpg" alt="VIBRA 1">
+            <p>Hosting offline events</p>
+        </div>
+        <div class="media-box">
+            <img src="/photo_2023-11-19_11-10-17.jpg" alt="VIBRA 2">
+            <p>Engaging Blockchain Experts in Kenya</p>
+        </div>
+        <div class="media-box">
+            <iframe width="900" height="600" src="https://www.youtube.com/embed/pYm5004Bd1E?si=bESVA1fwRPKN7JEs" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            </iframe>
+        </div>
+        <p>Identifying potential markets 
+            of entry,penetration and 
+            product marketing for VIBRA.
+        </p>
+    </div>
+    <div class="image-pair-container">
+        <div class="image-pair">
+            <img src="/Blockchain transforming agriculture.jpg" alt="First Image">
+        </div>
+        <p>Past online events on how to harness the power of Blockchain Technology.</p>
+    </div>
+    <div id="Contact" class="contact-form-container">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="button" onclick="sendMessage()">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
