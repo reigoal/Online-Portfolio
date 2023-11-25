@@ -217,6 +217,23 @@ span {
     margin: 1rem 0 3rem;
 }
 
+.portfolio {
+    align-items: center;
+}
+
+.portfolio h2 {
+    margin-bottom: 4rem;
+}
+
+
+.portfolio-box iframe {
+    width: 100%;
+    max-width: 900px; /* Set your preferred maximum width */
+    height: 600px; /* Set your preferred height */
+    margin: 0 auto; /* Center the iframe within the container */
+    display: block; /* Ensure it's a block-level element for margin auto to work */
+}
+
 .contact h2 {
     margin-bottom: 3rem;
 }
